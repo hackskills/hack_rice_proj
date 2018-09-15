@@ -137,6 +137,10 @@
       margin-right:-8px;
     }
 
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     @media (min-width:769px) {
         ul .dropdown:hover > .dropdown-menu {
           display:block;

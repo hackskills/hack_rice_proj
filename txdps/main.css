@@ -136,7 +136,12 @@
       margin-right:-8px;
     }
 
-    li.dropdown:hover > .dropdown-menu {
-        display: block;
-    }
+    @media (min-width:769px) {
+        ul .dropdown:hover > .dropdown-menu {
+          display:block;
+        }
+        ul .dropdown > .dropdown-menu {
+          display:none;
+        }
+        }
     

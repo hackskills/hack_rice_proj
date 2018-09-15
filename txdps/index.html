@@ -1,31 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style type="text/css">
-        .dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu > .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-}
-.dropdown-submenu:hover > .dropdown-menu {
-  display: block;
-}
-.dropdown-submenu:hover > a:after {
-  border-left-color: #fff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left > .dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-}
-    </style>
-
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -53,41 +28,88 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Divisions 
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Communications/SWIC</a></li>
+                <li><a class="dropdown-item" href="#">Highway Patrol</a></li>
+                <li><a class="dropdown-item" href="#">Motorcycle/ATC Safety Unit</a></li>
+                <li><a class="dropdown-item" href="#">Public Integrity Unit</a></li>
+                <li><a class="dropdown-item" href="#">Public Safety Commission</a></li>
+                <li><a class="dropdown-item" href="#">Texas Rangers Division</a></li>
+            </ul>                     
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Information 
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
+                        Policy <span class='caret caret-right'></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">DPS Laboratory Accreditation</a></li>
+                        <li><a class="dropdown-item" href="#">Occupant Restraint Laws</a></li>
+                        <li><a class="dropdown-item" href="#">Officer Involved Shootings</a></li>
+                        <li><a class="dropdown-item" href="#">Texas Statutes</a></li>
+                        <li><a class="dropdown-item" href="#">Title VI Program Policy</a></li>
+                        <li><a class="dropdown-item" href="#">TX DPS Employee Leave Policy</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
+                    Public Safety</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Amber and Related Alerts</a></li>
+                        <li><a class="dropdown-item" href="#">Border Security</a></li>
+                        <li><a class="dropdown-item" href="#">Child Passenger Safety</a></li>
+                        <li><a class="dropdown-item" href="#">Firearms Safety</a></li>
+                        <li><a class="dropdown-item" href="#">Identity Theft</a></li>
+                        <li><a class="dropdown-item" href="#">Texas Ten Most Wanted</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
+                    Reports</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Agency Strategic Plan</a></li>
+                        <li><a class="dropdown-item" href="#">Cyber Security Newsletters</a></li>
+                        <li><a class="dropdown-item" href="#">Department Budget</a></li>
+                        <li><a class="dropdown-item" href="#">DPS Reports</a></li>
+                        <li><a class="dropdown-item" href="#">Interoperability Reports</a></li>
+                        <li><a class="dropdown-item" href="#">NIBR/TIBRS</a></li>
+                        <li><a class="dropdown-item" href="#">Sunset Review Process</a></li>
+                        <li><a class="dropdown-item" href="#">TX GOV Code Ch 659 Report</a></li>
+                    </ul>
+                </li>                     
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services 
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                    Crime Records</a>
+                     Crime Records</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Criminal History Search</a></li>
                         <li><a class="dropdown-item" href="#">Fingerprint Services</a></li>
-                        <li><a class="dropdown-item" href="#">Sex Offender Search</a></li>
+                        <li><a class="dropdown-item" href="#">Sex Offender Registry Search</a></li>
                     </ul>
                 </li>
+                <li><a class="dropdown-item" href="#">CODIS DNA Database Program</a></li>
+                <li><a class="dropdown-item" href="#">Department Veterans Assistance Program (DVAP)</a></li>
+                <li><a class="dropdown-item" href="#">DPS Forms</a></li>
                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                    Criminal Investigations</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Polygraph School</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
-                    Driver License/ID Home</a>
+                    Driver License</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Address Change</a></li>
-                        <li><a class="dropdown-item" href="#">Driver Record Request</a></li>
+                        <li><a class="dropdown-item" href="#">Driver Record Requests</a></li>
                         <li><a class="dropdown-item" href="#">Office Locations</a></li>
                         <li><a class="dropdown-item" href="#">Renewal</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
-                    Law Enforcement Support</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Breath Alcohol Testing</a></li>
-                        <li><a class="dropdown-item" href="#">Communications</a></li>
-                        <li><a class="dropdown-item" href="#">Crime Laboratory</a></li>
-                        <li><a class="dropdown-item" href="#">NIBRS/TIBRS</a></li>
-                    </ul>
-                </li>    
+                <li><a class="dropdown-item" href="#">Emergency Management</a></li>
+                <li><a class="dropdown-item" href="#">Missing Persons Clearinghouse</a></li>
+                <li><a class="dropdown-item" href="#">Mobile App</a></li>
                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
                     Regulatory Services</a>
                     <ul class="dropdown-menu">
@@ -95,38 +117,56 @@
                         <li><a class="dropdown-item" href="#">Commissioned Online Prescription System</a></li>
                         <li><a class="dropdown-item" href="#">Compassionate Use Program</a></li>
                         <li><a class="dropdown-item" href="#">Handgun Licensing</a></li>
-                        <li><a class="dropdown-item" href="#"></a>Ignition Interlock</li>
+                        <li><a class="dropdown-item" href="#">Ignition Interlock</a></li>
                         <li><a class="dropdown-item" href="#">Peyote</a></li>
                         <li><a class="dropdown-item" href="#">Precursor Laboratory Apparatus</a></li>
                         <li><a class="dropdown-item" href="#">Private Security</a></li>
                         <li><a class="dropdown-item" href="#">Texas Metals Program</a></li>
                         <li><a class="dropdown-item" href="#">Vehicle Inspection</a></li>
                     </ul>
-                </li>                  
-                    <a class="dropdown-item" href="#">Texas LESO Program</a>
+                </li>
+                <li><a class="dropdown-item" href="#">School Bus Transportation</a></li>
+                <li><a class="dropdown-item" href="#">THP Citation Search</a></li>
+                <li><a class="dropdown-item" href="#">Vehicle Inspection</a></li>
+                <li><a class="dropdown-item" href="#">Victim Services</a></li>                  
             </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="employment.php">Employment</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About Us 
             </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">About DPS</a></li>
-                <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                <li><a class="dropdown-item" href="#">Fitness Wellness Info</a></li>
-                <li><a class="dropdown-item" href="#">General Information</a></li>
-                <li><a class="dropdown-item" href="#">Maps to DPS</a></li>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
+                     About DPS</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">General Information</a></li>
+                        <li><a class="dropdown-item" href="#">Maps to DPS</a></li>
+                        <li><a class="dropdown-item" href="#">Organization Chart</a></li>
+                        <li><a class="dropdown-item" href="#">Site Index</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
+                    Contact Us</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Doing Business with DPS</a></li>
+                        <li><a class="dropdown-item" href="#">Have a Complaint/Compliment?</a></li>
+                        <li><a class="dropdown-item" href="#">Public Information Requests</a></li>
+                        <li><a class="dropdown-item" href="#">Stranded Motorist Hotline</a></li>
+                    </ul>
+                </li>
                 <li><a class="dropdown-item" href="#">Medal of Valor</a></li>
-                <li><a class="dropdown-item" href="#">Organization Chart (PDF)</a></li>
-                <li><a class="dropdown-item" href="#">Site Index</a></li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
+                    Programs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Law Enforcement Education</a></li>
+                        <li><a class="dropdown-item" href="#">Polygraph School</a></li>
+                        <li><a class="dropdown-item" href="#">Reserve Officer Program</a></li>
+                    </ul>
+                </li>
                 <li><a class="dropdown-item" href="#">Solicitations</a></li>
-                <li><a class="dropdown-item" href="#">Tribute to Fallen Employees</a></li>
+                <li><a class="dropdown-item" href="#">Texas LESO Program</a></li>
+                <li><a class="dropdown-item" href="#">Tribute to a Fallen Employee</a></li>
             </ul>
-                
-                                      
         </li>
     </ul>
 </div>

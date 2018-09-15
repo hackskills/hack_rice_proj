@@ -173,6 +173,16 @@ session_start();
                 <li><a class="dropdown-item" href="#">Tribute to a Fallen Employee</a></li>
             </ul>
         </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="login.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Login 
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">CAPPS Login</a></li>
+                <li><a class="dropdown-item" href="#">Texas Veterans Portal</a></li>
+                <li><a class="dropdown-item" href="#">ERR Entry</a></li>
+            </ul>                     
+        </li>
     </ul>
 </div>
 </div>

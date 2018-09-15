@@ -147,3 +147,157 @@
         }
         }
     
+*, *:before, *:after {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: normal;
+  -ms-text-size-adjust: 80%;
+  -webkit-text-size-adjust: 80%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.border-top {
+  width: 100%;
+  height: 0.75em;
+  top: 0;
+  width: 0;
+  -webkit-animation: ani-width ease-in-out 0.5s 0s both;
+          animation: ani-width ease-in-out 0.5s 0s both;
+}
+.border-top:after {
+  content: '';
+  bottom: 0;
+  width: 100%;
+  height: 0.75em;
+  right: 0;
+  -webkit-animation: ani-width ease-in-out 0.5s 1s both;
+          animation: ani-width ease-in-out 0.5s 1s both;
+}
+
+.border-left {
+  height: 100%;
+  width: 0.75em;
+  left: 0;
+  bottom: 0;
+  -webkit-animation: ani-height ease-in-out 0.5s 1.5s both;
+          animation: ani-height ease-in-out 0.5s 1.5s both;
+}
+.border-left:after {
+  content: '';
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0.75em;
+  -webkit-animation: ani-height ease-in-out 0.5s 0.5s both;
+          animation: ani-height ease-in-out 0.5s 0.5s both;
+}
+
+.border-top,
+.border-top:after,
+.border-left,
+.border-left:after {
+  position: fixed;
+  z-index: 9;
+  background-color: #fff;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 1.75em;
+  line-height: 1.2;
+}
+@media (min-width: 32em) {
+  h2 {
+    font-size: 4em;
+  }
+}
+
+@charset "UTF-8";
+.container {
+  font-family: 'Yrsa', 'Times New Roman', serif;
+  width: 100vw;
+  height: 100vh;
+  background:white;
+}
+
+.effect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  cursor: pointer;
+}
+.effect__heading {
+  font-size: 1em;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+}
+.effect__heading:after {
+  content: '';
+  position: absolute;
+  color: slategrey;
+}
+.effect__subheading {
+  font-family: 'Avenir', sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.effect-a {
+  opacity: 0.5;
+  transition: opacity 0.3s cubic-bezier(0.5, 0, 0.5, 1);
+}
+.effect-a .effect__heading:after {
+  opacity: 0;
+  bottom: 2px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  background: #000;
+  z-index: -1;
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  transition: -webkit-transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  transition: transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  transition: transform 0.5s cubic-bezier(0.5, 0, 0.5, 1), -webkit-transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+}
+.effect-a .effect__subheading {
+  opacity: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  transition: opacity 0.5s cubic-bezier(0.5, 0, 0.5, 1), -webkit-transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  transition: opacity 0.5s cubic-bezier(0.5, 0, 0.5, 1), transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  transition: opacity 0.5s cubic-bezier(0.5, 0, 0.5, 1), transform 0.5s cubic-bezier(0.5, 0, 0.5, 1), -webkit-transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+}
+.effect-a:hover {
+  opacity: 1;
+}
+.effect-a:hover .effect__heading:after {
+  opacity: 0.1;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.effect-a:hover .effect__subheading {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}

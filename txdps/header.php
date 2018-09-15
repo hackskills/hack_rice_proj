@@ -20,7 +20,7 @@ session_start();
 	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
 </head>
 <body id="body-over">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 <a class="navbar-brand" href="index.php"><img src="RRGaming_Logo.png" id="logo-badge" width="50" height="50">Roadrunner Gaming</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
     aria-expanded="false" aria-label="Toggle navigation">
@@ -50,8 +50,8 @@ session_start();
                 Information 
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
-                    Policy</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>Policy</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">DPS Laboratory Accreditation</a></li>
                         <li><a class="dropdown-item" href="#">Occupant Restraint Laws</a></li>
@@ -61,8 +61,8 @@ session_start();
                         <li><a class="dropdown-item" href="#">TX DPS Employee Leave Policy</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
-                    Public Safety</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>Public Safety</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Amber and Related Alerts</a></li>
                         <li><a class="dropdown-item" href="#">Border Security</a></li>
@@ -72,8 +72,8 @@ session_start();
                         <li><a class="dropdown-item" href="#">Texas Ten Most Wanted</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                    Reports</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>Reports</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Agency Strategic Plan</a></li>
                         <li><a class="dropdown-item" href="#">Cyber Security Newsletters</a></li>
@@ -92,8 +92,8 @@ session_start();
                 Services 
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                     Crime Records</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>Crime Records</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Criminal History Search</a></li>
                         <li><a class="dropdown-item" href="#">Fingerprint Services</a></li>
@@ -103,8 +103,8 @@ session_start();
                 <li><a class="dropdown-item" href="#">CODIS DNA Database Program</a></li>
                 <li><a class="dropdown-item" href="#">Department Veterans Assistance Program (DVAP)</a></li>
                 <li><a class="dropdown-item" href="#">DPS Forms</a></li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                    Driver License</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>Driver License</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Address Change</a></li>
                         <li><a class="dropdown-item" href="#">Driver Record Requests</a></li>
@@ -115,8 +115,8 @@ session_start();
                 <li><a class="dropdown-item" href="#">Emergency Management</a></li>
                 <li><a class="dropdown-item" href="#">Missing Persons Clearinghouse</a></li>
                 <li><a class="dropdown-item" href="#">Mobile App</a></li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
-                    Regulatory Services</a>
+                <li class="dropdown-submenu"><a class="dropdown-item": href="#">
+                <b class="caret-right"></b>Regulatory Services</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Capitol Access Pass</a></li>
                         <li><a class="dropdown-item" href="#">Commissioned Online Prescription System</a></li>
@@ -141,8 +141,8 @@ session_start();
                 About Us 
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                     About DPS</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>About DPS</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">General Information</a></li>
                         <li><a class="dropdown-item" href="#">Maps to DPS</a></li>
@@ -150,8 +150,8 @@ session_start();
                         <li><a class="dropdown-item" href="#">Site Index</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
-                    Contact Us</a>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">
+                <b class="caret-right"></b>Contact Us</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Doing Business with DPS</a></li>
                         <li><a class="dropdown-item" href="#">Have a Complaint/Compliment?</a></li>
@@ -160,8 +160,8 @@ session_start();
                     </ul>
                 </li>
                 <li><a class="dropdown-item" href="#">Medal of Valor</a></li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
-                    Programs</a>
+                <li class="dropdown-submenu"><a class="dropdown-item": href="#">
+                <b class="caret-right"></b>Programs</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Law Enforcement Education</a></li>
                         <li><a class="dropdown-item" href="#">Polygraph School</a></li>

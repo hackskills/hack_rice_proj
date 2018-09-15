@@ -136,6 +136,7 @@
       margin-right:-8px;
     }
 
-    .nav li.dropdown ul.dropdown-menu:before, .nav li.dropdown ul.dropdown-menu:after {
-        display: none;
-      }
+    li.dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+    

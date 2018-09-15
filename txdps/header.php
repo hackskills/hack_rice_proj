@@ -31,6 +31,7 @@ session_start();
     <ul class="navbar-nav">
         <li class="nav-item active">
             <a class="nav-link" href="index.php">Home</a>
+        </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services 
@@ -38,7 +39,7 @@ session_start();
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
                     Crime Records</a>
-                    <ul class="dropdown-submenu">
+                    <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Criminal History Search</a></li>
                         <li><a class="dropdown-item" href="#">Fingerprint Services</a></li>
                         <li><a class="dropdown-item" href="#">Sex Offender Search</a></li>
@@ -46,32 +47,32 @@ session_start();
                 </li>
                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">
                     Criminal Investigations</a>
-                    <ul class="dropdown-submenu">
+                    <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Polygraph School</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle: href="#">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
                     Driver License/ID Home</a>
-                    <ul class="dropdown-submenu">
-                        <li><a class="dropdown-item" href="#"></a>Address Change</li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Address Change</a></li>
                         <li><a class="dropdown-item" href="#">Driver Record Request</a></li>
                         <li><a class="dropdown-item" href="#">Office Locations</a></li>
                         <li><a class="dropdown-item" href="#">Renewal</a></li>
                     </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle: href="#">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
                     Law Enforcement Support</a>
-                    <ul class="dropdown-submenu">
-                        <li><a class="dropdown-item" href="#"></a>Breath Alcohol Testing</li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Breath Alcohol Testing</a></li>
                         <li><a class="dropdown-item" href="#">Communications</a></li>
                         <li><a class="dropdown-item" href="#">Crime Laboratory</a></li>
                         <li><a class="dropdown-item" href="#">NIBRS/TIBRS</a></li>
                     </ul>
                 </li>    
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle: href="#">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle": href="#">
                     Regulatory Services</a>
-                    <ul class="dropdown-submenu">
-                        <li><a class="dropdown-item" href="#"></a>Capitol Access Pass</li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Capitol Access Pass</a></li>
                         <li><a class="dropdown-item" href="#">Commissioned Online Prescription System</a></li>
                         <li><a class="dropdown-item" href="#">Compassionate Use Program</a></li>
                         <li><a class="dropdown-item" href="#">Handgun Licensing</a></li>
@@ -82,16 +83,29 @@ session_start();
                         <li><a class="dropdown-item" href="#">Texas Metals Program</a></li>
                         <li><a class="dropdown-item" href="#">Vehicle Inspection</a></li>
                     </ul>
-                </li>
-                    <a class="dropdown-item" href="#">Law Enforcement Support</a>
-                    <a class="dropdown-item" href="#">Regulatory Services</a>                        <a class="dropdown-item" href="#">Texas LESO Program</a>
+                </li>                  
+                    <a class="dropdown-item" href="#">Texas LESO Program</a>
             </ul>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="employment.php">Employment</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="aboutUs.php">About Us</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdownMenuLink" role="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About Us 
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About DPS</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">Fitness Wellness Info</a></li>
+                <li><a class="dropdown-item" href="#">General Information</a></li>
+                <li><a class="dropdown-item" href="#">Maps to DPS</a></li>
+                <li><a class="dropdown-item" href="#">Medal of Valor</a></li>
+                <li><a class="dropdown-item" href="#">Organization Chart (PDF)</a></li>
+                <li><a class="dropdown-item" href="#">Site Index</a></li>
+                <li><a class="dropdown-item" href="#">Solicitations</a></li>
+                <li><a class="dropdown-item" href="#">Tribute to Fallen Employees</a></li>
+            </ul>                     
         </li>
     </ul>
 </div>

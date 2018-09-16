@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php include_once 'header.php';?>
+
 <html lang="en-US">
 <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
 <head>
@@ -20,14 +21,25 @@
     p {
         color:grey;
         font-family: 'Trebuchet MS', 'Lucida Sans', Arial;
+        font-size: 12px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
-    h4 {
+    h1 {
         color: lightgrey;
         font-family: 'Armata', 'Arial Narrow Bold', sans-serif;
         font-kerning: normal;
+        font-size: 60px;
+    }
+        h3 {
+        color: darkgrey;
+        font-family: 'Armata', 'Arial Narrow Bold', sans-serif;
+        font-kerning: normal;
+        font-size: 10px;
     }
 .main {
-  margin-top: 90px;
+  margin-top: 100px;
+
 }
 
 </style>
@@ -42,6 +54,7 @@
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 </button>
+
 
 
 
@@ -122,7 +135,7 @@
                 <li><a class="dropdown-item" href="#">Department Veterans Assistance Program (DVAP)</a></li>
                 <li><a class="dropdown-item" href="#">DPS Forms</a></li>
                 <li class="dropdown-submenu"><a class="dropdown-item" href="#">
-                <b class="caret-right"></b>Driver License</a>
+                <b class="caret-right" href = "#"></b>Driver License</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Address Change</a></li>
                         <li><a class="dropdown-item" href="#">Driver Record Requests</a></li>
@@ -214,55 +227,56 @@
 </nav>
 
 
-
-
-
-
-
-
-
-
-
-
 <div class="main">
-        <div class="row">
+    <div class="row">
             <div class="col">
                 <div class="position-relative overflow-hidden p-12 p-md-12 m-md-12 text-center bg-semilight">
-                    <div class="col-md-12 p-lg-12 mx-auto my-12">
-                        <h4 class="display-3 font-weight-normal" >Courtesy, Service, Protection</h4>
-                        <p class = "display-5 font-weight-normal">
-                            Proactively protect the citizens of Texas in an ever changing threat environment while always 
-                            remaining faithful to the U.S. and State Constitution.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <iframe width="100%" height="500" scrolling="no" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6887.461496158739!2d-97.72574866934205!3d30.330175596798213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ca46dcf0be55%3A0x1a342c9d9863d05b!2sTexas+Department+of+Public+Safety!5e0!3m2!1sen!2sus!4v1537033901144" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    </div>
+                    
+                    <h1>General Information</h1><br>
+                      <section class="effect effect-a">
+                          <h3 class="effect__heading">Mission </h3>
+                          <p class="effect__subheading">Protect and Serve Texas</p>
+                      </section>
+                    <section class="effect effect-a">
+                          <h3 class="effect__heading">Vision</h3>
+                    <p class="effect__subheading">Proactively protect the citizens of Texas in an ever changing
+                       threat environment while always remaining faithful to the U.S. and State Constitution.</p><br>
+                    </section>
+                   <section class="effect effect-a">
+                    <h3 class="effect__heading">Core Values</h3>
+                    <p class="effect__subheading">Integrity: We demonstrate through our actions honesty, 
+                      fairness and respect for others in our professional and personal lives. <br>
+                      Excellence: We strive to be outstanding in everything we do and we never settle for less. <br>
+                      Accountability: We seek and accept responsibility for our actions, performance and result. <br>
+                      Teamwork: We work closely with other agencies to achieve common objectives. <br>
+                       </p><br>
+                   </section>
+                    <section class="effect effect-a">
+                    <h3 class="effect__heading">Motto</h3>
+                    <p class="effect__subheading">Courtesy, Service, Protection</p><br>
+                    </section>
+                   <section class="effect effect-a">
+                    <h3 class="effect__heading">Goals</h3>
+                    <p class="effect__subheading">Combat Crime and Terrorism <br>
+                    Enhance Highway and Public Safety<br>
+                    Enhance Statewide Emergency Management<br>
+                    Enhance Public Safety Licensing and Regulatory Services</p><br>
+                    </section>
+               
+                    <a href="#contact">Contact us</a><br>
+                    <a href="#officelocations">Office Locations</a><br>
+                    <a href="#divisions">Divisions</a><br>
+                    <a href="#services">Services</a><br><br>
 
-</br>
-</br>
-</br>
-</br>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+            </div>
+    </div></div></div>
 
-    
+
+  
 	<div id="footer">
   		
 <div style="text-align:center" id="footDiv" class="footDiv">
-<img id="footSeperator" class="texas.png" src="texas.png" alt="null"/>
+<img id="footSeperator" class="texas.png" src="texas.png" alt="null">
 <br />
 <strong>Note:</strong> links to [PDF] files require <a href="https://get.adobe.com/reader/" title="Adobe" target="_blank">Adobe Reader</a> or another PDF viewer. 
 <br />
@@ -285,8 +299,6 @@
 	<br />
 	<p>&copy; 2000-2018 Texas Department of Public Safety | HackRice 8 </p>
 
-
-</body>
-</html>
-
-
+<?php
+    include_once 'footer.php';
+?>

@@ -40,7 +40,7 @@ session_start();
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="findWorker.php">Find</a>
             <a class="dropdown-item" href="addWorker.php">Add</a>
-            <a class="dropdown-item" href="#">Display</a>
+            <a class="dropdown-item" href="displayWorkers.php">Display</a>
         </div>
         </li>
         <li class="nav-item dropdown">
@@ -50,7 +50,7 @@ session_start();
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="findCert.php">Find</a>
             <a class="dropdown-item" href="addCert.php">Add</a>
-            <a class="dropdown-item" href="#">Display</a>
+            <a class="dropdown-item" href="displayCertifications.php">Display</a>
         </div>
         </li>
         <li class="nav-item dropdown">
@@ -60,7 +60,17 @@ session_start();
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="findWorkOrder.php">Find</a>
             <a class="dropdown-item" href="addWorkOrder.php">Add</a>
-            <a class="dropdown-item" href="#">Display</a>
+            <a class="dropdown-item" href="displayWorkOrders.php">Display</a>
+        </div>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Work Logs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="findWorkLog.php">Find</a>
+            <a class="dropdown-item" href="addWorkLog.php">Add</a>
+            <a class="dropdown-item" href="displayWorkLogs.php">Display</a>
         </div>
         </li>';
     }

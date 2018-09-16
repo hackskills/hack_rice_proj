@@ -141,14 +141,14 @@
     .menuServiceButton
     {
         border:none;
-        background-color:blue;
+        background-color:grey;
         color:orange;
     }
 
     .menuServiceButton:hover
     {
         background-color: orange;
-        color:blue;
+        color:grey;
     }
     h1 {
         font-family: Arial, Helvetica, sans-serif;

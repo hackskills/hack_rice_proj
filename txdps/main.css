@@ -32,13 +32,14 @@
 }
 
 #body-over {
-    background-color: white;
+    background-color:white;
     //background-image:url();
     //background-image:url(RRGaming_Logo.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    //background-color:rgb(3, 64, 97);
 }
 
 #logo-badge{
@@ -63,7 +64,6 @@
 
 #main-cont{
     background-color:white;
-    margin-top: 400px;
 }
 
 .bg-rrgblue {
@@ -137,6 +137,20 @@
       margin-right:-8px;
     }
 
+    .menuServiceButton
+    {
+        border:none;
+        background-color:blue;
+        color:orange;
+    }
+
+    .menuServiceButton:hover
+    {
+        background-color: orange;
+        color:blue;
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
     @media (min-width:769px) {
         ul .dropdown:hover > .dropdown-menu {
@@ -146,4 +160,5 @@
           display:none;
         }
         }
+    
     
